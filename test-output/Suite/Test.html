@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Feb 16 15:14:02 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>1168 seconds (1168261 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.StudentPortal.StudentTests.StudentTests4.TC848_Post_FADisbursement()'><b>TC848_Post_FADisbursement</b><br>Test class: com.StudentPortal.StudentTests.StudentTests4<br>Test method: Test Script to post an FA Disburdement<br>Parameters: {StudentNumber=16283643, Campus=Northwood Technical College, Runmode=Y, StudentName=Adams, Autumn, UserName=QW50aG9sb2d5YWRtaW5Abm9ydGh3b29kdGVjaC5lZHU=, Password=Q3V0dGluZ2JvYXRhbmNob3JzMjE=, SuccessMessage=The Transaction records were successfully saved., Browser=chrome, CampusName=Northwood Technical College}</td>
+<td></td>
+<td>263</td>
+<td>com.StudentPortal.StudentTests.StudentTests4@253d9f73</td></tr>
+<tr>
+<td title='com.StudentPortal.StudentTests.StudentTests3.TC900_Perform_Program_Transfer_to_Student()'><b>TC900_Perform_Program_Transfer_to_Student</b><br>Test class: com.StudentPortal.StudentTests.StudentTests3<br>Test method: Test Script to Perform a Program Transfer for a Student<br>Parameters: {Campus=Northwood Technical College, StudentNumber=16998851, Runmode=Y, StudentName=Coss, Hailey, UserName=QW50aG9sb2d5YWRtaW5Abm9ydGh3b29kdGVjaC5lZHU=, Password=Q3V0dGluZ2JvYXRhbmNob3JzMjE=, SuccessMessage=The Transfer Enrollment records were successfully saved., Program Version=Undeclared Continuing Ed , Browser=chrome, CampusName=Northwood Technical College}</td>
+<td></td>
+<td>274</td>
+<td>com.StudentPortal.StudentTests.StudentTests3@7e3181aa</td></tr>
+<tr>
+<td title='com.StudentPortal.StudentTests.StudentTests3.TC928_Subsidiary_Ledger_Post_Payment()'><b>TC928_Subsidiary_Ledger_Post_Payment</b><br>Test class: com.StudentPortal.StudentTests.StudentTests3<br>Test method: Test Script to Subsidiary Ledger - Post a Payment<br>Parameters: {StudentNumber=17409521, Campus=Northwood Technical College, Runmode=Y, StudentName=Abrams, Morgan, UserName=QW50aG9sb2d5YWRtaW5Abm9ydGh3b29kdGVjaC5lZHU=, Password=Q3V0dGluZ2JvYXRhbmNob3JzMjE=, SuccessMessage=The Transaction records were successfully saved., Browser=chrome, CampusName=Northwood Technical College}</td>
+<td></td>
+<td>252</td>
+<td>com.StudentPortal.StudentTests.StudentTests3@7e3181aa</td></tr>
+<tr>
+<td title='com.StudentPortal.StudentTests.StudentTests3.TC930_Subsidiary_Ledger_Adjust_Transaction_Delete()'><b>TC930_Subsidiary_Ledger_Adjust_Transaction_Delete</b><br>Test class: com.StudentPortal.StudentTests.StudentTests3<br>Test method: Test Script to Subsidiary Ledger - Adjust Transaction - Delete<br>Parameters: {SelCharge=120.00 , Campus=Northwood Technical College, StudentNumber=17409521, Runmode=Y, StudentName=Abrams, Morgan, UserName=QW50aG9sb2d5YWRtaW5Abm9ydGh3b29kdGVjaC5lZHU=, Password=Q3V0dGluZ2JvYXRhbmNob3JzMjE=, SuccessMessage=The Student Subsidiary records were successfully deleted., Browser=chrome, CampusName=Northwood Technical College}</td>
+<td></td>
+<td>302</td>
+<td>com.StudentPortal.StudentTests.StudentTests3@7e3181aa</td></tr>
+<tr>
+<td title='com.StudentPortal.StudentTests.StudentTests3.TC931_Subsidiary_Ledger_Adjust_Transaction_Void()'><b>TC931_Subsidiary_Ledger_Adjust_Transaction_Void</b><br>Test class: com.StudentPortal.StudentTests.StudentTests3<br>Test method: Test Script to Subsidiary Ledger Adjust Transaction - Void<br>Parameters: {StudentNumber=17409521, Campus=Northwood Technical College, VoidSuccessMessage=The Student Subsidiary records were successfully voided., Runmode=Y, StudentName=Abrams, Morgan, UserName=QW50aG9sb2d5YWRtaW5Abm9ydGh3b29kdGVjaC5lZHU=, Password=Q3V0dGluZ2JvYXRhbmNob3JzMjE=, Browser=chrome, CampusName=Northwood Technical College}</td>
+<td></td>
+<td>302</td>
+<td>com.StudentPortal.StudentTests.StudentTests3@7e3181aa</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[quiting webdriver1]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-02-24T08:47:10 IST" name="Default suite" finished-at="2024-02-24T08:51:16 IST" duration-ms="245973">
+    <groups>
+    </groups>
+    <test started-at="2024-02-24T08:47:10 IST" name="Default test" finished-at="2024-02-24T08:51:16 IST" duration-ms="245973">
+      <class name="com.StudentPortal.StudentTests.StudentTests4">
+        <test-method is-config="true" signature="beforeTestSuite(org.testng.ITestContext)[pri:0, instance:com.StudentPortal.StudentTests.StudentTests4@16ce702d]" started-at="2024-02-24T08:47:10 IST" name="beforeTestSuite" finished-at="2024-02-24T08:47:10 IST" duration-ms="105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6abdec0e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestSuite -->
+        <test-method is-config="true" signature="beforeTest(org.testng.ITestContext, org.testng.xml.XmlTest)[pri:0, instance:com.StudentPortal.StudentTests.StudentTests4@16ce702d]" started-at="2024-02-24T08:47:10 IST" name="beforeTest" finished-at="2024-02-24T08:47:10 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6abdec0e]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.xml.XmlTest@8b7267de]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTestMethod([Ljava.lang.Object;, java.lang.reflect.Method, org.testng.ITestContext, org.testng.xml.XmlTest)[pri:0, instance:com.StudentPortal.StudentTests.StudentTests4@16ce702d]" started-at="2024-02-24T08:47:10 IST" name="beforeTestMethod" finished-at="2024-02-24T08:47:30 IST" duration-ms="19319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2b5c4f17]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.StudentPortal.StudentTests.StudentTests4.TC845_Post_Charge(com.framework.util.StringHash) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@6abdec0e]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.xml.XmlTest@8b7267de]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method signature="TC845_Post_Charge(com.framework.util.StringHash)[pri:5, instance:com.StudentPortal.StudentTests.StudentTests4@16ce702d]" started-at="2024-02-24T08:47:30 IST" name="TC845_Post_Charge" description="Test Script to post a charge" data-provider="getData" finished-at="2024-02-24T08:51:16 IST" duration-ms="225806" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{StudentNumber=17508958, Campus=Northwood Technical College, Runmode=Y, StudentName=Adams, Beau, UserName=QW50aG9sb2d5YWRtaW5Abm9ydGh3b29kdGVjaC5lZHU=, Password=Q3V0dGluZ2JvYXRhbmNob3JzMjE=, SuccessMessage=The Charge records were successfully saved., PostingChargeMsg=The Charge records were successfully saved., Browser=chrome, CampusName=Northwood Technical College}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC845_Post_Charge -->
+        <test-method is-config="true" signature="afterTestMethod([Ljava.lang.Object;, java.lang.reflect.Method, org.testng.ITestContext, org.testng.xml.XmlTest)[pri:0, instance:com.StudentPortal.StudentTests.StudentTests4@16ce702d]" started-at="2024-02-24T08:51:16 IST" name="afterTestMethod" finished-at="2024-02-24T08:51:16 IST" duration-ms="469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2b5c4f17]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.StudentPortal.StudentTests.StudentTests4.TC845_Post_Charge(com.framework.util.StringHash) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@6abdec0e]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.xml.XmlTest@8b7267de]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[quiting webdriver1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method is-config="true" signature="afterTestSuite()[pri:0, instance:com.StudentPortal.StudentTests.StudentTests4@16ce702d]" started-at="2024-02-24T08:51:16 IST" name="afterTestSuite" finished-at="2024-02-24T08:51:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestSuite -->
+      </class> <!-- com.StudentPortal.StudentTests.StudentTests4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
